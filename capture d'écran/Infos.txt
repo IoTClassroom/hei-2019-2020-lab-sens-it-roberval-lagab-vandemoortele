@@ -1,0 +1,3 @@
+- Nous avons réussi à récupérer les données grâce à notre Parser, mais cell-ci sont mauvaises car nous pensons avoir
+mal implémenté notre main.c.
+C'est pour cela que nous obtenons des valeurs incohérentes en ce qui concerne la température, l'humidité et la lumière.
