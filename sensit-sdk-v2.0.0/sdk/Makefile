@@ -7,14 +7,14 @@
 # SDK LIBRARY
 # -----------
 LIB_NAME = SENSIT_SDK_V2.0.0
-LIB_PATH = lib
+LIB_PATH = D:/HEI/H4/Programmation_embarquee/TP4/hei-2019-2020-lab-sens-it-roberval-lagab-vandemoortele/sensit-sdk-v2.0.0/sdk/lib
 
 
 # --------------
 # OUTPUT FOLDERS
 # --------------
-BIN_PATH = bin
-OBJ_PATH = obj
+BIN_PATH = D:/HEI/H4/Programmation_embarquee/TP4/hei-2019-2020-lab-sens-it-roberval-lagab-vandemoortele/sensit-sdk-v2.0.0/sdk/bin
+OBJ_PATH = D:/HEI/H4/Programmation_embarquee/TP4/hei-2019-2020-lab-sens-it-roberval-lagab-vandemoortele/sensit-sdk-v2.0.0/sdk/obj
 
 
 # ------------
@@ -190,4 +190,4 @@ dir:
 
 # Rule for USB flashing using dfu file manager (vendor id 0483)
 prog:
-	dfu-util -a 0 -s 0x08000000:leave -D $(BIN_PATH)/$(BIN_OUTPUT)
+	D:/HEI/H4/Programmation_embarquee/dfu-util-0.9-win64/dfu-util.exe -a 0 -s 0x08000000:leave -D $(BIN_PATH)/$(BIN_OUTPUT)
