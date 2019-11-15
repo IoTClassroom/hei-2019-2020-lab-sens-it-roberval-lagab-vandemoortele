@@ -19,6 +19,8 @@
 #include "fxos8700.h"
 #include "discovery.h"
 
+#define MEASUREMENT_PERIOD                 60
+
 /******* GLOBAL VARIABLES ******************************************/
 u8 firmware_version[] = "TEMPLATE";
 
@@ -120,7 +122,7 @@ int main()
         {
 
             /* Send the message */
-            err = RADIO_API_send_message(RGB_MAGENTA, (u8 *)"HI", 2, FALSE, NULL);
+            err = RADIO_API_send_message(RGB_MAGENTA, (u8 *)firmware version[], 2, FALSE, NULL);
             /* Parse the error code */
             ERROR_parser(err);
 
